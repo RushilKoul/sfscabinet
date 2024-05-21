@@ -1,0 +1,42 @@
+{
+"tagore": { 
+	"captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		],
+	"vice_captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		]
+	},
+"teresa": { 
+	"captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		],
+	"vice_captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		]
+	},
+"gandhi": { 
+	"captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		],
+	"vice_captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		]
+	},
+"nehru": { 
+	"captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		],
+	"vice_captains": [
+		{"name":"2","img":"2"},
+		{"name":"2","img":"2"}
+		]
+	}
+}
