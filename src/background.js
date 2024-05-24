@@ -16,6 +16,7 @@ async function createWindow() {
     icon: __dirname + './src/icon.ico',
     width: 1200,
     height: 600,
+    frame: false,
     webPreferences: {
       
       // Use pluginOptions.nodeIntegration, leave this alone

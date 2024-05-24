@@ -3,6 +3,44 @@
 	"captains": [
 		{"name":"name","img":"name"},
 		{"name":"name","img":"name"},
-		{"name":"name","img":""}
+		{"name":"name","img":"name"}
 		],
 	"vice_captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		]
+	},
+"teresa": { 
+	"captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		],
+	"vice_captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		]
+	},
+"gandhi": { 
+	"captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		],
+	"vice_captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		]
+	},
+"nehru": { 
+	"captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		],
+	"vice_captains": [
+		{"name":"name","img":"name"},
+		{"name":"name","img":"name"}
+		]
+	}
+}
