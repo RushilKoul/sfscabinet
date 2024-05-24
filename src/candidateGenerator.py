@@ -158,7 +158,7 @@ for i in range(n_captains_nehru):
     captains_nehru_img.append(i)
 
 print(colored("-"*80, "cyan"))
-print(colored("TAGORE HOUSE VICE CAPTAINS", "green"))
+print(colored("NEHRU HOUSE VICE CAPTAINS", "green"))
 print(colored("-"*80, "cyan"))
 print('\n')
 
@@ -191,9 +191,9 @@ with open('./candidates.json', 'a+') as f:
     json_tagore_vice_captains = []
     for vcap in range(n_vice_captains_tagore):
         if vcap != n_vice_captains_tagore - 1:
-            json_tagore_vice_captains.append('\t\t{"name":"' + vice_captains_tagore_name[cap] + '","img":"' + vice_captains_tagore_img[cap]+ '"},\n')
+            json_tagore_vice_captains.append('\t\t{"name":"' + vice_captains_tagore_name[vcap] + '","img":"' + vice_captains_tagore_img[vcap]+ '"},\n')
         elif cap == n_captains_tagore - 1:
-            json_tagore_vice_captains.append('\t\t{"name":"' + vice_captains_tagore_name[cap] + '","img":"' + vice_captains_tagore_img[cap]+ '"}\n')
+            json_tagore_vice_captains.append('\t\t{"name":"' + vice_captains_tagore_name[vcap] + '","img":"' + vice_captains_tagore_img[vcap]+ '"}\n')
         
     f.writelines(json_tagore_vice_captains)
 
@@ -217,9 +217,9 @@ with open('./candidates.json', 'a+') as f:
     json_teresa_vice_captains = []
     for vcap in range(n_vice_captains_teresa):
         if vcap != n_vice_captains_teresa - 1:
-            json_teresa_vice_captains.append('\t\t{"name":"' + vice_captains_teresa_name[cap] + '","img":"' + vice_captains_teresa_img[cap]+ '"},\n')
+            json_teresa_vice_captains.append('\t\t{"name":"' + vice_captains_teresa_name[vcap] + '","img":"' + vice_captains_teresa_img[vcap]+ '"},\n')
         elif cap == n_captains_teresa - 1:
-            json_teresa_vice_captains.append('\t\t{"name":"' + vice_captains_teresa_name[cap] + '","img":"' + vice_captains_teresa_img[cap]+ '"}\n')
+            json_teresa_vice_captains.append('\t\t{"name":"' + vice_captains_teresa_name[vcap] + '","img":"' + vice_captains_teresa_img[vcap]+ '"}\n')
         
     f.writelines(json_teresa_vice_captains)
         
@@ -242,9 +242,9 @@ with open('./candidates.json', 'a+') as f:
     json_gandhi_vice_captains = []
     for vcap in range(n_vice_captains_gandhi):
         if vcap != n_vice_captains_gandhi - 1:
-            json_gandhi_vice_captains.append('\t\t{"name":"' + vice_captains_gandhi_name[cap] + '","img":"' + vice_captains_gandhi_img[cap]+ '"},\n')
+            json_gandhi_vice_captains.append('\t\t{"name":"' + vice_captains_gandhi_name[vcap] + '","img":"' + vice_captains_gandhi_img[vcap]+ '"},\n')
         elif cap == n_captains_gandhi - 1:
-            json_gandhi_vice_captains.append('\t\t{"name":"' + vice_captains_gandhi_name[cap] + '","img":"' + vice_captains_gandhi_img[cap]+ '"}\n')
+            json_gandhi_vice_captains.append('\t\t{"name":"' + vice_captains_gandhi_name[vcap] + '","img":"' + vice_captains_gandhi_img[vcap]+ '"}\n')
         
     f.writelines(json_gandhi_vice_captains)
         
@@ -268,9 +268,9 @@ with open('./candidates.json', 'a+') as f:
     json_nehru_vice_captains = []
     for vcap in range(n_vice_captains_nehru):
         if vcap != n_vice_captains_nehru - 1:
-            json_nehru_vice_captains.append('\t\t{"name":"' + vice_captains_nehru_name[cap] + '","img":"' + vice_captains_nehru_img[cap]+ '"},\n')
+            json_nehru_vice_captains.append('\t\t{"name":"' + vice_captains_nehru_name[vcap] + '","img":"' + vice_captains_nehru_img[vcap]+ '"},\n')
         elif cap == n_captains_nehru - 1:
-            json_nehru_vice_captains.append('\t\t{"name":"' + vice_captains_nehru_name[cap] + '","img":"' + vice_captains_nehru_img[cap]+ '"}\n')
+            json_nehru_vice_captains.append('\t\t{"name":"' + vice_captains_nehru_name[vcap] + '","img":"' + vice_captains_nehru_img[vcap]+ '"}\n')
         
     f.writelines(json_nehru_vice_captains)
     f.write("\t\t]\n")
